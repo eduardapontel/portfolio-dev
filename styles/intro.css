@@ -1,0 +1,128 @@
+#intro {
+    display: flex;
+    padding: 120px 163px 57px 163px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 94px;
+    align-self: stretch;
+    background: url(../assets/images/Background_Intro.png);
+}
+
+#info {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+#info > header {
+    display: flex;
+    width: 680px;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
+
+#avatar {
+    position: relative;
+    width: 112px;
+    height: 112px;
+    margin: 8px;
+}
+
+#user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+}
+
+#user > #border {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: var(--border-radius-border-full, 999px);
+    border: 2px solid var(--Main-Red, #e3646e);
+    padding: 4.36px;
+}
+
+#user > img {
+    width: 87.273px;
+    height: 87.273px;
+    flex-shrink: 0;
+}
+
+#avatar > img {
+    position: absolute;
+    bottom: 0px;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    inset: 65.64px 10.36px 10.36px 65.64px;
+}
+
+header > .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.text > .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.title > .subtitle {
+    color: var(--Base-gray-500, #c0c4ce);
+    text-align: center;
+}
+
+.subtitle > span {
+    color: var(--Main-Red, #e3646e);
+}
+
+.title > .title-lg {
+    color: var(--Base-gray-600, #e2e4e9);
+    text-align: center;
+}
+
+.text > .text-sm {
+    color: var(--Base-gray-400, #878ea1);
+    text-align: center;
+}
+
+#tags {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.tag {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--border-radius-border-full, 999px);
+    background: var(--Base-gray-300, #292c34);
+}
+
+.tag > img {
+    width: 24px;
+    height: 24px;
+}
+
+.tag > .text-md {
+    color: var(--Base-gray-500, #c0c4ce);
+    text-align: center;
+}
