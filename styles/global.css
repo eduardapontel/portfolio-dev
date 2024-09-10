@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    width: 1366px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: var(--Base-gray-200, #16181d);
+    margin: auto;
+}
+
 :root {
     --red: #e3646e;
     --purple: #bb72e9;
@@ -27,26 +37,26 @@
     --text-sm: 14px/140% var(--maven-pro);
 }
 
-.title-lg{
+.title-lg {
     font: var(--title-lg);
 }
 
-.title-md{
+.title-md {
     font: var(--title-md);
 }
 
-.title-sm{
+.title-sm {
     font: var(--title-sm);
 }
 
-.subtitle{
+.subtitle {
     font: var(--subtitle);
 }
 
-.text-md{
+.text-md {
     font: var(--text-md);
 }
 
-.text-sm{
+.text-sm {
     font: var(--text-sm);
 }

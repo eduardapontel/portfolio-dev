@@ -6,7 +6,7 @@
     align-items: center;
     gap: 94px;
     align-self: stretch;
-    background: url(../assets/images/Background_Intro.png);
+    background: url(../assets/images/Background_Intro.png) lightgray 50% / cover no-repeat;
 }
 
 #info {
