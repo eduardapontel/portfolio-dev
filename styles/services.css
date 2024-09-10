@@ -1,0 +1,57 @@
+#services {
+    display: flex;
+    padding: 88px 120px 120px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    align-self: stretch;
+    background: var(--gray-100, #0d0e11);
+}
+
+#services > header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#services > header > .title-md {
+    color: var(--gray-600, #e2e4e9);
+    margin: auto;
+}
+
+#services > header > .subtitle {
+    color: var(--red, #e3646e);
+    margin: auto;
+}
+
+#services > .grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+#services > .grid > .card {
+    display: flex;
+    width: 280px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--gray-200, #16181d);
+}
+
+#services > .grid > .card > .text > .title-sm {
+    color: var(--gray-600, #e2e4e9);
+}
+
+#services > .grid > .card > .text > .text-sm {
+    color: var(--gray-500, #c0c4ce);
+}

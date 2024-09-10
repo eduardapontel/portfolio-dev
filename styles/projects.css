@@ -18,16 +18,16 @@
 }
 
 #projects > header > .subtitle {
-    color: var(--Main-Red, #e3646e);
+    color: var(--red, #e3646e);
     margin: auto;
 }
 
 #projects > header > .title-md {
-    color: var(--Base-gray-600, #e2e4e9);
+    color: var(--gray-600, #e2e4e9);
     margin: auto;
 }
 
-#grid {
+#projects > .grid {
     display: flex;
     width: 1040px;
     justify-content: center;
@@ -37,7 +37,7 @@
     flex-wrap: wrap;
 }
 
-#projectCard {
+.projectCard {
     display: flex;
     width: 330px;
     height: 280px;
@@ -47,17 +47,23 @@
     gap: 20px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: var(--Base-gray-300, #292c34);
+    background: var(--gray-300, #292c34);
+    border: 1.5px solid transparent;
+    text-decoration: none;
 }
 
-#projectCard > img {
+.projectCard:hover {
+    border: 1.5px solid var(--gray-400, #878ea1);
+}
+
+.projectCard > img {
     width: 306px;
     height: 156px;
     flex-shrink: 0;
     border-radius: 8px;
 }
 
-#text {
+.projectCard > .text {
     display: flex;
     padding: 4px;
     flex-direction: column;
@@ -65,10 +71,10 @@
     align-self: stretch;
 }
 
-#text > .title-sm {
-    color: var(--Base-gray-600, #e2e4e9);
+.projectCard > .text > .title-sm {
+    color: var(--gray-600, #e2e4e9);
 }
 
-#text > .text-sm {
-    color: var(--Base-gray-500, #c0c4ce);
+.projectCard > .text > .text-sm {
+    color: var(--gray-500, #c0c4ce);
 }

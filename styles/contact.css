@@ -1,0 +1,78 @@
+#contact {
+    display: flex;
+    padding: 128px 120px 200px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+    background: url(../assets/images/Background_Contacts.png) lightgray 50% / cover no-repeat;
+}
+
+#contact > header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#contact > header > .subtitle {
+    color: var(--purple, #bb72e9);
+    margin: auto;
+}
+
+#contact > header > .title-md {
+    color: var(--gray-600, #e2e4e9);
+    margin: auto;
+}
+
+#contact > header > .text-md {
+    color: var(--gray-500, #c0c4ce);
+    margin: auto;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.socialButton {
+    box-sizing: border-box;
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    background: var(--gray-300, #292c34);
+    border: 1.5px solid transparent;
+    text-decoration: none;
+}
+
+.socialButton:hover {
+    border: 1.5px solid var(--blue, #3996db);
+}
+
+.socialButton img {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.socialButton:hover .icon-hover {
+    fill: var(--blue, #3996db);
+}
+
+.socialButton p {
+    flex: 1 0 0;
+    color: var(--gray-500, #c0c4ce);
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
