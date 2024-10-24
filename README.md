@@ -52,7 +52,7 @@ The styling is managed through several CSS files, each responsible for different
 **Or** follow the steps below to run it locally:
 
 - Clone the repository:
-   ```bash git clone https://github.com/eduardapontel/portfolio-dev.git```
+   ```git clone https://github.com/eduardapontel/portfolio-dev.git```
 
 - Open `index.html` in your browser.
 
