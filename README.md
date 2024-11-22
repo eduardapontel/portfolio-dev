@@ -7,7 +7,7 @@ Welcome to my Portfolio! This project showcases my skills as a Fullstack Develop
 ## Features ✨
 
 - **Intro Section**: A brief introduction and highlight of my skills.
-- **Projects Section**: A showcase of featured projects with clickable cards.
+- **Projects Section**: A showcase of featured projects with clickable cards. 
 - **Services Section**: Information about the services I provide.
 - **Contact Section**: Get in touch or follow me on social media.
 
