@@ -6,7 +6,7 @@
     align-items: center;
     gap: 48px;
     align-self: stretch;
-    background: url(../assets/images/Background_Contacts.png) lightgray 50% / cover no-repeat;
+    background: url(../assets/images/background-contacts.png) lightgray 50% / cover no-repeat;
 }
 
 #contact > header {
