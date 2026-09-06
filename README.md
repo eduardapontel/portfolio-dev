@@ -1,6 +1,6 @@
 # Portfolio Dev 💻
 
-Welcome to my Portfolio! This project showcases my skills as a Fullstack Developer, featuring my recent work and services I offer. 
+This project showcases my portfolio as a Full-Stack Developer, featuring my recent projects, the services I offer, and how to contact me.
 
 <br>
 
@@ -18,17 +18,6 @@ Welcome to my Portfolio! This project showcases my skills as a Fullstack Develop
 The layout for this project was created by Rocketseat using Figma. You can view the layout file and its components by visiting the following link: [Figma Layout](https://www.figma.com/community/file/1387080701963671866).
 
 The layout showcases the structure, color scheme, and visual design of the webpage, providing a clear reference for the development of the project.
-
-<br>
-
-## HTML Structure 📝
-
-The HTML structure of the project is organized into the following sections:
-
-- `<section id="intro">`: Introduction and personal information.
-- `<section id="projects">`: Display of featured projects.
-- `<section id="services">`: Details about services offered.
-- `<section id="contact">`: Contact information and social media links.
 
 <br>
 
