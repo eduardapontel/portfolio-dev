@@ -49,4 +49,4 @@ The styling is managed through several CSS files, each responsible for different
 
 ## How to Contribute 🤝
 
-If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes. 
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
