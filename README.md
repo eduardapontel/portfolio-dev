@@ -2,7 +2,7 @@
 
 This project showcases my portfolio as a Full-Stack Developer, featuring an introduction about me and the technologies I have knowledge of, as well as my recent projects, the services I offer, and how to contact me.
 
-<br>
+<br> 
 
 ## Features ✨
 
