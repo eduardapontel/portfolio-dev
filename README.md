@@ -25,12 +25,12 @@ The layout showcases the structure, color scheme, and visual design of the webpa
 
 The styling is managed through several CSS files, each responsible for different sections:
 
-- **global.css**: Contains global styles and variables for consistent theming.
-- **intro.css**: Styles specific to the introduction section.
-- **projects.css**: Styles for the projects section.
-- **services.css**: Styles for the services section.
-- **contact.css**: Styles for the contact section.
-- **index.css**: Imports all other CSS files to consolidate styles.
+- ```global.css```: Contains global styles and variables for consistent theming.
+- ```intro.css```: Styles specific to the introduction section.
+- ```projects.css```: Styles for the projects section.
+- ```services.css```: Styles for the services section.
+- ```contact.css```: Styles for the contact section.
+- ```index.css```: Imports all other CSS files to consolidate styles.
 
 <br>
 
@@ -41,7 +41,9 @@ The styling is managed through several CSS files, each responsible for different
 **Or** follow the steps below to run it locally:
 
 - Clone the repository:
-   ```git clone https://github.com/eduardapontel/portfolio-dev.git```
+   ```bash
+     git clone https://github.com/eduardapontel/portfolio-dev.git
+   ```
 
 - Open `index.html` in your browser.
 
